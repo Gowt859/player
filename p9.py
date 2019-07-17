@@ -1,9 +1,12 @@
-g1,g2=map(int,input().split())
-for j in range(g1,g2+1):
-    if j>1:
-        for n in range(2,j):
-            if(j%n==0):
+bg1,bg2=input().split()
+bg1=int(bg1)
+bg2=int(bg2)
+l=[]
+if(bg1>1 and bgg2>1):
+    for k in range (bg1,bg2+1):
+        for t in range (2,k):
+            if (k%t==0):
                 break
         else:
-            count=count+1
-print(count)
+            l.append(k)
+print(len(l))

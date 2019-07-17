@@ -1,2 +1,4 @@
-g1 = input()
-print(g1+".")
+str=input()
+g='.'
+s=str+g
+print(s)

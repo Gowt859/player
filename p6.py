@@ -1,8 +1,8 @@
-a,b=map(str,input().split())
-for i in range(len(a)):
-    if(a.count(a[i])==b.count(b[i])):
-        print("yes")
+g1,g2=map(str,input().split())
+for j in range(len(g1)):
+    if(g1.count(g1[j])==g2.count(g2[j])):
+        print('yes')
         break
     else:
-        print("no")
+        print('no')
         break
